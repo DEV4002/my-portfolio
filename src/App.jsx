@@ -760,7 +760,7 @@ export default function Portfolio() {
 
           {/* Stats */}
           <div style={{ display: "flex", gap: 40, justifyContent: "center", marginTop: 60, flexWrap: "wrap" }}>
-            {[["2+", "Years Exp"], ["3+", "AI Projects"], ["10+", "Technologies"]].map(([n, l]) => (
+            {[[" Fresher", ], ["10+", "AI Projects"], ["10+", "Technologies"]].map(([n, l]) => (
               <div key={l} style={{ textAlign: "center" }}>
                 <div style={{ fontFamily: "'Rajdhani', sans-serif", fontSize: 36, fontWeight: 700, color: "#00f5ff", lineHeight: 1 }}>{n}</div>
                 <div style={{ fontFamily: "'Space Mono', monospace", fontSize: 11, color: "#555", letterSpacing: 2 }}>{l}</div>
